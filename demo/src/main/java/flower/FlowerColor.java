@@ -1,3 +1,5 @@
+package flower;
+
 public enum FlowerColor {
     RED("#FF0000"),
     BLUE("#0000FF"),
@@ -9,7 +11,7 @@ public enum FlowerColor {
         this.hexCode = hexCode;
     }
 
-    public String getHexCode() {
+    public String getColor() {
         return hexCode;
     }
 }
